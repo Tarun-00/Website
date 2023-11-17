@@ -1,0 +1,288 @@
+/* =============================================================================
+   HTML5 CSS Reset Minified - Eric Meyer
+   ========================================================================== */
+
+html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,address,cite,code,del,dfn,em,img,ins,kbd,q,samp,small,strong,sub,sup,var,b,i,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,figcaption,figure,footer,header,hgroup,menu,nav,section,summary,time,mark,audio,video{margin:0;padding:0;border:0;outline:0;font-size:100%;vertical-align:baseline;background:transparent}
+body{line-height:1}
+article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}
+nav ul{list-style:none}
+blockquote,q{quotes:none}
+blockquote:before,blockquote:after,q:before,q:after{content:none}
+a{margin:0;padding:0;font-size:100%;vertical-align:baseline;background:transparent;text-decoration:none}
+mark{background-color:#ff9;color:#000;font-style:italic;font-weight:bold}
+del{text-decoration:line-through}
+abbr[title],dfn[title]{border-bottom:1px dotted;cursor:help}
+table{border-collapse:collapse;border-spacing:0}
+hr{display:block;height:1px;border:0;border-top:1px solid #ccc;margin:1em 0;padding:0}
+input,select{vertical-align:middle}
+li{list-style:none}
+
+
+/* =============================================================================
+   My CSS
+   ========================================================================== */
+
+/* ---- base ---- */
+
+html,body{ 
+	width:100%;
+	height:100%;
+	background:#111;
+}
+
+html{
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+body{
+  font:normal 75% Arial, Helvetica, sans-serif;
+}
+
+canvas{
+  display:block;
+  vertical-align:bottom;
+}
+/* ---- particles.js container ---- */
+
+#particles-js{
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background-color: #000000;
+  background-image: url('');
+  background-size: cover;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+}
+
+.header{
+  position: relative;
+}
+
+.box1{
+  position: relative;
+  width: 100px;
+height: 100px;
+border: 1px solid black
+
+}
+
+.particles-js-canvas-el{
+  position: absolute;
+}
+
+.card {
+  width: 1000px;
+  height: 700px;
+  background-image: linear-gradient(163deg, #ff9900 0%, #533418 100%);
+  border-radius: 20px;
+  transition: all .3s;
+  position: absolute;
+  z-index: 1;
+  top: 150px;
+  left: 50px;
+ }
+ 
+ .card2 {
+  width: 1000px;
+  height: 700px;
+  background-color: #1a1a1a;
+  border-radius:;
+  transition: all .2s;
+  position: absolute;
+  z-index: 1;
+ }
+ 
+ .card2:hover {
+  transform: scale(0.98);
+  border-radius: 20px;
+  position: absolute;
+  z-index: 1;
+ }
+ 
+ .card:hover {
+  position: absolute;
+  box-shadow: 0px 0px 30px 1px rgba(255, 166, 0, 0.3);
+  z-index: 1;
+ }
+
+ .textheader{
+  position:absolute;
+  color: aliceblue;
+  font-size: 30px;
+  font-family: Dosis;
+  top: 8px;
+  left: 24PX;
+ }
+
+ .Btn {
+  width: 45px;
+  height: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  background-color: transparent;
+  position: relative;
+  /* overflow: hidden; */
+  border-radius: 7px;
+  cursor: pointer;
+  transition: all .3s;
+  position: absolute;
+  left: 1850px;
+  top:26px;
+}
+
+.svgContainer {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: transparent;
+  backdrop-filter: blur(0px);
+  letter-spacing: 0.8px;
+  border-radius: 10px;
+  transition: all .3s;
+  border: 1px solid rgba(156, 156, 156, 0.466);
+  position: absolute;
+}
+
+.BG {
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 100%;
+  background: #ec0d0d;
+  z-index: -1;
+  border-radius: 10px;
+  pointer-events: none;
+  transition: all .3s;
+}
+
+.Btn:hover .BG {
+  transform: rotate(35deg);
+  transform-origin: bottom;
+}
+
+.Btn:hover .svgContainer {
+  background-color: rgba(156, 156, 156, 0.466);
+  backdrop-filter: blur(4px);
+}
+
+.Btn2 {
+  width: 45px;
+  height: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  background-color: transparent;
+  position: relative;
+  /* overflow: hidden; */
+  border-radius: 7px;
+  cursor: pointer;
+  transition: all .3s;
+  position: absolute;
+  left: 1780px;
+  top: 26px;
+}
+
+.svgContainer2 {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: transparent;
+  backdrop-filter: blur(0px);
+  letter-spacing: 0.8px;
+  border-radius: 10px;
+  transition: all .3s;
+  border: 1px solid rgba(156, 156, 156, 0.466);
+  position: absolute;
+}
+
+.BG2 {
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 100%;
+  background: #ec0d0d;
+  z-index: -1;
+  border-radius: 10px;
+  pointer-events: none;
+  transition: all .3s;
+}
+
+.Btn2:hover .BG2 {
+  transform: rotate(35deg);
+  transform-origin: bottom;
+}
+
+.Btn2:hover .svgContainer2 {
+  background-color: rgba(156, 156, 156, 0.466);
+  backdrop-filter: blur(10px);
+}
+
+.text1{
+  position:absolute;
+  color: aliceblue;
+  font-size: 100px;
+  font-family: Yanone Kaffeesatz;
+  left: 124px;
+  top: 200px;
+  z-index: 2;
+  text-align: center;
+ }
+ .text1:hover {
+  backdrop-filter:blur(99%);
+  -webkit-animation: glow 1s ease-in-out infinite alternate;
+  -moz-animation: glow 1s ease-in-out infinite alternate;
+  animation: glow 1s ease-in-out infinite alternate;
+ }
+
+ @-webkit-keyframes glow {
+  from {
+    text-shadow: 0 0 10px #eeeeee67, 0 0 20px #eeeeee67, 0 0 30px #eeeeee67, 0 0 40px #eeeeee67, 
+                 0 0 50px #eeeeee67, 0 0 60px #eeeeee67, 0 0 70px #eeeeee67;
+  }
+  to {
+    text-shadow: 0 0 20px #eeeeee67, 0 0 30px #eeeeee67, 0 0 40px #eeeeee67, 0 0 50px #eeeeee67, 
+                 0 0 60px #eeeeee67, 0 0 70px #eeeeee67, 0 0 80px #eeeeee67;
+  }
+}
+
+.text2{
+  position: absolute;
+  color: aliceblue;
+  font-size: 70px;
+  font-family: Yanone Kaffeesatz;
+  z-index: 2;
+  top: 320px;
+  left: 124px;
+}
+
+.text3{
+  position: absolute;
+  color: aliceblue;
+  font-size: 70px;
+  font-family: Yanone Kaffeesatz;
+  z-index: 2;
+  top: 400px;
+  left: 124px;
+}
+
+.photo1{
+  position: absolute;
+  z-index: 3;
+  width: 200px;
+  top: 550px;
+  left: 130px;
+  border-radius: 200px;
+  transition: border-radius 0.2s linear;
+}
+
+.photo1:hover {
+  border-radius: 0px;
+}
