@@ -113,6 +113,7 @@ border: 1px solid black
   font-family: Dosis;
   top: 8px;
   left: 24PX;
+  cursor: default;
  }
 
  .Btn {
@@ -234,6 +235,7 @@ border: 1px solid black
   top: 200px;
   z-index: 2;
   text-align: center;
+  cursor: default;
  }
  .text1:hover {
   backdrop-filter:blur(99%);
@@ -261,6 +263,7 @@ border: 1px solid black
   z-index: 2;
   top: 320px;
   left: 124px;
+  cursor: default;
 }
 
 .text3{
@@ -271,18 +274,41 @@ border: 1px solid black
   z-index: 2;
   top: 400px;
   left: 124px;
+  cursor: default;
+}
+
+.text4{
+  position: absolute;
+  color: aliceblue;
+  font-size: 70px;
+  font-family: Yanone Kaffeesatz;
+  z-index: 2;
+  top: 480px;
+  left: 124px;
+  cursor: default;
+}
+
+.text5{
+  position: absolute;
+  color: aliceblue;
+  font-size: 70px;
+  font-family: Yanone Kaffeesatz;
+  z-index: 2;
+  top: 630px;
+  left: 124px;
+  cursor: default;
 }
 
 .photo1{
   position: absolute;
   z-index: 3;
-  width: 200px;
-  top: 550px;
-  left: 130px;
+  width: 600px;
+  top: 200px;
+  left: 1230px;
   border-radius: 200px;
   transition: border-radius 0.2s linear;
 }
 
 .photo1:hover {
-  border-radius: 0px;
+  border-radius: 10px;
 }
