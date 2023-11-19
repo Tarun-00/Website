@@ -74,7 +74,7 @@ border: 1px solid black
 .card {
   width: 1000px;
   height: 700px;
-  background-image: linear-gradient(163deg, #ff9900 0%, #533418 100%);
+  background-image: linear-gradient(163deg, #ff9900 0%, rgb(255, 145, 0) 100%);
   border-radius: 20px;
   transition: all .3s;
   position: absolute;
@@ -102,7 +102,7 @@ border: 1px solid black
  
  .card:hover {
   position: absolute;
-  box-shadow: 0px 0px 30px 1px rgba(255, 166, 0, 0.3);
+  box-shadow: 0px 0px 30px 1px rgba(255, 166, 0, 0.712);
   z-index: 1;
  }
 
